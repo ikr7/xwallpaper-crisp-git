@@ -1,0 +1,22 @@
+pkgbase = xwallpaper-crisp-git
+	pkgdesc = Wallpaper setting utility for X
+	pkgver = 0.7.3+4+gce35117
+	pkgrel = 1
+	url = https://github.com/ikr7/xwallpaper
+	arch = i686
+	arch = x86_64
+	license = ISC
+	makedepends = git
+	depends = pixman
+	depends = libpng
+	depends = libxpm
+	depends = xcb-util
+	depends = xcb-util-image
+	depends = libjpeg-turbo
+	depends = libseccomp
+	provides = xwallpaper
+	conflicts = xwallpaper
+	source = xwallpaper-crisp-git::git+https://github.com/ikr7/xwallpaper
+	sha512sums = SKIP
+
+pkgname = xwallpaper-crisp-git
